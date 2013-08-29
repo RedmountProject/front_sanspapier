@@ -1,0 +1,467 @@
+
+#ui-tooltip-0 #form{
+    width: 210px;
+}
+
+.windows {
+    position: fixed;
+    border-width: 0.2em;
+    border-color: #444;
+    background: #FFF;
+    color: #444;
+    z-index: 1000;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+}
+
+.windowsValidateAddToCart {
+    position: fixed;
+    min-width: 100px;
+    height: 20px;
+    
+    padding: 10px;
+    padding-bottom: 0px;
+    
+    text-align: justify;
+    line-height: 20px;
+    vertical-align: central;
+    
+    border-width: 0.2em;
+    border-color: green;
+    background: #FFF;
+    color: green;
+    z-index: 100000;
+    
+    font-size: 12px;
+    font-weight: normal;
+    
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+
+.windows_hover {
+    background: #fff;
+    border-width: 0.1em;
+    border-color: #B5B5B5;
+    height: 195px;
+    padding: 5px 9px;
+    z-index: 1; 
+}
+
+.windows_filter_search {
+    border: none;
+    background : #E2E2E2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: fixed;
+}
+
+.windows_filter_index {
+    border: none;
+    background : #E2E2E2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#ui-tooltip-0 #login_form{
+    text-align:left;
+}
+
+#ui-tooltip-0 #loginForm{
+    position: relative;
+    float: left;
+    margin: 0 5px 5px 5px;
+    font-size: 14px;
+}
+
+#ui-tooltip-0 #login_form label {
+    line-height: 16px;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#ui-tooltip-0 #login_form input {
+    border: 1px solid #444;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    width: 91%;
+}
+
+#ui-tooltip-0 #login_form #_submit{
+    opacity: 0.9;
+    cursor: pointer;
+    font-size: 13px;
+    height: 25px;
+    margin: 5px;
+    width: 95%;
+}
+
+#ui-tooltip-0 #login_form #_submit:hover{
+    opacity: 1;
+}
+
+#ui-tooltip-0 #login_form #remember_me{
+    position: relative;
+    float: left;
+    margin-top: 5px;   
+    margin-left: 40%;  
+}
+#ui-tooltip-0 #login_form #remember_label{
+    font-weight: normal;
+    position: relative;
+    float: left;
+}
+
+#ui-tooltip-0 #forgottenPasswordZone, #ui-tooltip-0 #registerZone{
+    text-align:center;
+    margin-top:5px;
+}
+
+#ui-tooltip-0 #registerForm{
+    margin:auto;
+    font-size: 15px;
+    padding-top: 15px;
+    font-weight:bold;
+}
+
+#ui-tooltip-0 #forgotPasswordForm{
+    margin:auto;
+    font-size: 12px;
+    padding-top: 5px;
+    font-weight:bold;
+}
+
+#ui-tooltip-0 #fos_user_registration_form{
+    text-align: left;
+}
+
+#ui-tooltip-0 #fos_user_registration_form input{
+    border: 1px solid #444;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    width: 91%;
+}
+
+#ui-tooltip-0 #fos_user_registration_form label{
+    line-height: 16px;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#ui-tooltip-0 #fos_user_registration_form_load_anim{
+    position: relative;
+    float: right;
+}
+
+#ui-tooltip-0 #sp_global_error_fos_user_resetting_request{
+    margin-left: 15px;
+    position: relative;
+    float: right;
+    font-size: 14px;
+}
+
+#ui-tooltip-0 #fos_user_registration_form #create{
+    opacity:0.9;
+    cursor: pointer;
+    font-size: 13px;
+    height: 25px;
+    margin-top: 5px;
+    background: #444;
+    color: #FFF;
+    width: 95%;
+}
+
+#ui-tooltip-0 #fos_user_registration_form #create:hover{
+    opacity: 1;
+}
+
+#ui-tooltip-0 #fos_user_resetting_request {
+    text-align:left;
+}
+
+#ui-tooltip-0 #fos_user_resetting_request label{
+    line-height: 20px;
+    font-size: 12px;
+    margin-left: 5px;
+    height: 24px;
+    font-weight: bold;
+}
+
+#ui-tooltip-0 #fos_user_resetting_request input{
+    border: 1px solid #444;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    width: 91%;
+}
+
+#ui-tooltip-0 #user_name{
+    position: relative;
+    float: right;
+    padding: 10px;
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+#ui-tooltip-0 #perso, #ui-tooltip-0 #logout{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    margin-bottom: 10px;    
+    font-size: 14px;
+    text-align:center;
+}
+
+#ui-tooltip-0 #sp_global_error_login_form {
+    margin-left: 15px;
+    position: relative;
+    float: right;
+    font-size: 14px;
+}
+
+#ui-tooltip-0 #sp_global_message_login_form{
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#ui-tooltip-0 .deconnected{
+    font-size:16px;
+    font-weight: bold;
+    position:relative;
+    float: right;
+    margin:5px 10px 0 0;
+}
+
+.ui-tooltip{
+    padding: 5px;
+}
+
+#ui-tooltip-0 #fos_user_resetting_request #reset_password{
+    opacity:0.9;
+    cursor: pointer;
+    font-size: 13px;
+    width: 95%;
+    height: 25px;
+    background: #444;
+    color: #FFF;
+    margin: 5px;
+}
+
+#ui-tooltip-0 #fos_user_resetting_request #reset_password:hover{
+    opacity: 1;
+}
+
+
+span:hover {  
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.centered_list {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align:middle;
+    display: inline-block;
+    line-height:1; /* on rétablit le line-height */
+    
+}
+
+.centered_list  ul {
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.centered_list  li {
+    float: left;
+    position: relative; 
+    width : 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+
+#price_slider {
+    margin-top: -2px;
+    position: absolute;
+    left: 175px;
+    height : 12px;
+    width: 10px;
+    background: #000;
+    
+    border-style: solid;
+    border-width: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border-color: #ffffff;
+    
+    cursor: move;
+}
+
+#price_bar {
+    margin-top: 2px;
+    height : 12px;
+    width: 120px;
+}
+
+
+
+.vertical_centering { 
+    height : 40px;
+    vertical-align:middle;
+    display:inline-block;
+    line-height:1; /* on rétablit le line-height */
+    text-align:center;
+}
+
+
+.filter_container{
+    border-radius: 2px;
+    border:1px solid #D9D8D0;
+}
+
+#slider_price_filter {
+    position: relative; 
+}
+
+#drm_feedback {
+    width: 90px;
+}
+
+
+.feedback {
+    margin-top: 4px;
+}
+
+.toggle {
+    
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    height: 12px;
+    width : 12px;
+    cursor: pointer;
+}
+
+.toggle_round {
+    
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    height: 12px;
+    width : 12px;
+    cursor: pointer;
+    
+}
+
+.toggle_group {
+    position: relative; /* on positionne le conteneur */
+    width:34px;
+    margin:0 2px;
+    display:inline-block;
+    vertical-align:middle;
+    text-align: center;
+}
+
+.centered_item {
+    position: relative;
+    display:inline-block;
+    vertical-align:middle;
+    text-align: center;
+    line-height:1;
+}
+
+
+/* TUTO WINDOWS */
+
+
+.tuto_windows {
+    position: absolute;
+    padding: 5px;
+    
+    background: #FFF;
+    
+    width: 270px;
+    
+    font-size: 14px;
+    
+    border: 1px dotted #444;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: #333;
+    
+    text-align: center;
+    
+    font-family: 'Arial', cursive;
+    letter-spacing: 0.16em;
+    font-size: 14px;
+    line-height: 17px;
+    
+    -webkit-box-shadow: 0px 1px 15px rgba(50, 50, 50, 0.78);
+    -moz-box-shadow:    0px 1px 15px rgba(50, 50, 50, 0.78);
+    box-shadow:         0px 1px 15px rgba(50, 50, 50, 0.78);
+}
+
+.tuto_windows_cible {
+    position: absolute;
+    padding: 5px;
+    
+    background: #FFF;
+    
+    width: 465px;
+    height:280px;
+    
+    font-size: 14px;
+    
+    border: 1px dotted #444;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: #333;
+    
+    text-align: center;
+    
+    font-family: 'Arial', cursive;
+    letter-spacing: 0.16em;
+    font-size: 14px;
+    line-height: 17px;
+    
+    -webkit-box-shadow: 0px 1px 15px rgba(50, 50, 50, 0.78);
+    -moz-box-shadow:    0px 1px 15px rgba(50, 50, 50, 0.78);
+    box-shadow:         0px 1px 15px rgba(50, 50, 50, 0.78);
+}

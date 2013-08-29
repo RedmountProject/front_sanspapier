@@ -1,0 +1,413 @@
+#booksheet li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    width: 100px;
+    height: auto;
+    opacity: 0.75;
+}
+
+#booksheet li:hover {
+    opacity: 1;
+    cursor: pointer;
+    -moz-transition: opacity 0.3s; /* Firefox 4 */
+    -webkit-transition: opacity 0.3s; /* Safari and Chrome */
+    -o-transition: opacity 0.3s; /* Opera */
+    transition: opacity 0.3s;
+}
+
+
+
+ .container_fiche {
+    width: 900px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:default;
+}
+
+#booksheet .image {
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 297px;
+    height: 450px;
+    box-shadow: 5px 5px 10px #666;
+}
+
+#booksheet .titre_logo {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    width: 525px;
+    margin-top: 10px;
+    z-index: 2;
+    padding: 10px;
+}
+
+#booksheet .titres {
+    float: left;
+    position: relative;
+    width: 380px;
+}
+
+#booksheet .publisher_logo {
+    position: relative;
+    float: right;
+    width: 140px;
+    height: 100px;
+    line-height: 100px;
+}
+
+#booksheet .publisher_logo img {
+    vertical-align: middle;
+}
+
+#booksheet #grad{
+    position: relative;
+    float: left;
+    width: 545px;
+    height: 330px;
+    background: transparent;
+    margin: 0 0 0 20px;
+    padding-top: 2px;
+    overflow: hidden;
+}
+
+#booksheet .text {
+    float: left;
+    position: relative;
+    padding: 13px 17px 0px 10px;
+    width: 535px;
+    height: 330px;
+    overflow-y: scroll;
+    
+}
+
+#booksheet .infos_achat{
+    float: left;
+    position: relative;
+    width: 860px;
+    height: 77px;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 1px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+#booksheet .infos {
+    float: left;
+    position: relative;
+    width: 40%;
+}
+
+#booksheet .infos dl {
+    margin: 2px 0px;
+    padding:0;
+}
+
+#booksheet .infos dt {
+    width: 40%;
+    float: left;
+    margin: 0;
+    padding-bottom:2px;
+}
+
+#booksheet .infos dd {
+    width: 60%;
+    float: left;
+    margin: 0;
+    padding-bottom:2px;
+}
+
+#booksheet .formats {
+    position: relative;
+    float: right;
+    text-align: right;
+    width: 58%;
+    height: 25px;
+    line-height: 15px;
+    margin-right:5px;
+}
+
+.selectFormats option {
+    font-size:14px;
+}
+
+.selectFormats {
+    font-size:14px;
+    margin-right: 0;
+}
+
+#booksheet .buy {
+    position: relative;
+    float: right;
+    width: 58%;
+    height: 35px;
+    margin: 15px 5px 0 0;
+}
+
+#booksheet .prix {
+    position: relative;
+    float: right;
+    font-size: 30px;
+    line-height: 26px;
+    margin-right: 10px;
+    vertical-align: central;
+}
+
+#booksheet .buy_button .addToCart {
+    border-radius: 2px;
+    opacity: 0.8;
+    position: relative;
+    float: right;
+    height:27px;
+    width:107px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -142px -11px no-repeat;
+}
+
+#booksheet .buy_button .addToCart:hover{
+    opacity:1;
+}
+
+#booksheet .sliders{
+    float: left;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    width: 860px;
+    height: 170px;
+}
+
+#booksheet .sliders span:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#booksheet .editions_slider{
+    position: absolute;
+    float: left;
+    width: 425px;
+    text-align: center;
+    height: 150px;
+    z-index:40000;
+}
+
+#booksheet .auteur_slider{
+    position: relative;
+    float: left;
+    width: 425px;
+    text-align: center;
+    height: 150px;
+    z-index:50000;
+}
+
+#booksheet .format_slider{
+    position: relative;
+    float: left;
+    width: 425px;
+    margin-left:10px;
+    text-align: left;
+    height: 170px;
+}
+
+#booksheet .format_title {
+    font-style:normal;
+    font-weight:bold;
+    font-size:13px;
+    text-align:center;
+    margin-bottom:15px;
+    
+    text-align: left;
+}
+
+#booksheet .pem_data {
+    font-style:normal;
+    font-weight:normal;
+    font-size:12px;
+    margin-top:8px;
+    
+    text-align: left;
+}
+
+#booksheet .format_data {
+    font-style:normal;
+    font-weight:normal;
+    font-size:12px;
+    margin-bottom:8px;
+    
+    text-align: left;
+}
+
+#booksheet #sameAuthor_title, #sameEd_title, #formats_title{
+    height: 20px;
+    line-height: 18px;
+    vertical-align: central;
+}
+
+#booksheet #formats_title{
+    text-align:center;
+}
+
+#booksheet #sameEd_title{
+    margin-left:50%;
+    width:50%;
+}
+
+#booksheet #sameAuthor_title{
+    margin-right:50%;
+    width:50%;
+}
+
+#booksheet #sameEd_title:hover{
+    cursor:pointer;
+}
+
+#booksheet #sameAuthor_title:hover{
+    cursor:pointer;
+}
+
+#booksheet .auteur_slider img, .editions_slider img {
+    border:1px solid #CACACA;
+}
+
+#booksheet .slider_cont {
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 2000px;
+    text-align: center;
+}
+
+#booksheet .sliderNoResult {
+    margin-top: 40px;
+}
+
+#booksheet .slider_clip {
+    margin: auto;
+    padding-top: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 140px;
+/*    height: 126px;*/
+}
+
+#booksheet #formats_slider {
+    margin: auto;
+    padding-top: 3px;
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 170px;
+    
+}
+
+#booksheet .next {
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    margin-top: -80px;
+    
+}
+
+#booksheet .prev {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    margin-top: -80px;
+    
+}
+
+#booksheet .sliders .leftArrow {
+    position: relative;
+    float: left;
+    height:22px;
+    width:22px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -613px -105px no-repeat;
+    opacity: 0.8;
+}
+
+
+#booksheet .sliders .rightArrow {
+    position: relative;
+    float: right;
+    height:22px;
+    width:22px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -643px -105px no-repeat;
+    opacity: 0.8;
+}
+
+
+#booksheet .ui {
+    position: fixed
+}
+
+.moreText{
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    font-style:italic;
+    color: #444;
+    margin-top: 10px;
+    z-index: 1000;
+}
+.moreText:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.close_booksheet{
+    position: absolute;
+    float: right;
+    width: 2%;
+    height: 10px;
+    text-align: center;
+    margin-left: 98%;
+    
+    line-height: 10px;
+    vertical-align: central;
+    
+    cursor: pointer;
+    
+    font-size: 16px;
+            
+}
+.close_booksheet:hover{
+    font-weight: bold;
+}
+
+.extraitBookContainer {
+    width: 297px;
+    opacity: 0.8;
+}
+
+.extraitBookContainer:hover {
+    opacity: 1;
+}
+
+.extraitBook {
+    width:297px;
+    height:18px;
+    line-height:18px;
+    background-color:#000;
+    color: #FFF;
+    font-weight:bold;
+    font-size:13px;
+    text-align:center;
+    margin-top:-5px;
+    margin-bottom:5px;
+    
+}
+
+.labelChooseFormatBooksheet, .labelChooseFormatBooksheet:hover {
+    font-size:14px;
+    color: #444;
+    text-decoration:none;
+    font-weight: normal;
+    cursor: default;
+}

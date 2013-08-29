@@ -1,0 +1,422 @@
+/*----------title_0 AND COLUMNS----------*/
+
+.libs{
+    position: relative;
+    float: left;
+    width: 2000px;
+    min-height: 510px;
+    z-index: 90;
+}
+.libs:hover{
+    cursor: default;
+    text-decoration: none;
+}
+
+#lib_1, #lib_2, #lib_3{
+    display: none;
+}
+
+#call_1, #call_2, #call_3, #call_4{
+    display: none;
+    position: relative;
+    float: left;
+    line-height: 25px;
+    vertical-align: central;
+}
+
+#lib_4{
+    min-height: 400px;
+    display: none;
+}
+
+.centering {
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.entete{
+    height: 40px;
+    line-height: 16px;
+    vertical-align: central;
+    padding-top: 10px;
+}
+.entete:hover{
+    text-decoration: underline;
+}
+
+#title_0 .entete{
+    line-height: 30px;
+}
+
+.column1 {
+    position: relative;
+    float: left;
+    /*    min-height: 30px;*/
+    min-width: 172px;
+}
+.column2 {
+    position: relative;
+    float: left;
+    /*    min-height: 30px;*/
+    min-width: 172px;
+}
+.column3 {
+    position: relative;
+    float: left;
+    /*    min-height: 30px;*/
+    min-width: 172px;
+}
+.column4 {
+    position: relative;
+    float: left;
+    /*    min-height: 30px;*/
+    min-width: 172px;
+}
+.column5 {
+    position: relative;
+    float: left;
+    /*    min-height: 30px;*/
+    min-width: 172px;
+}
+
+.activateSpread {
+    cursor: pointer;
+}
+
+.change_col {
+    height: 70px;
+    line-height: 50px;    /*  hauteur bordereau categories  ----> changer les deux valeurs height et line-height   */
+    overflow: hidden;
+    position:relative;
+    z-index: 8000;
+}
+
+.blackShadow{
+    -webkit-box-shadow: 0 4px 15px -10px #444;
+    -moz-box-shadow: 0 4px 15px -10px #444;
+    box-shadow: 0 4px 15px -10px #444;
+}
+
+.onglet {
+    height: 25px;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-top: 0px; 
+    
+    margin-right: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    border-top-right-radius: 4px;  
+    font-size: 18px;
+    line-height: 26px;
+    vertical-align: central;
+    cursor: pointer;
+}
+
+.onglet:hover {
+    text-decoration: underline;
+    
+}
+
+.onglet a {
+    font-weight: bold;
+    width: auto;
+}
+
+
+
+/*
+    MOSAIQUE CONTAINERS
+*/
+
+.fiche_mosaique {
+    position: relative;
+    float: left;
+    width: 172px;
+    height: 409px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.fiche_mosaique:hover{
+    
+}
+
+.titre_auteur{
+    position: relative;
+    float: left;
+    min-height: 89px;
+    padding: 5px;
+}
+
+.imageMo{
+    position: relative;
+    float: right;
+    width: auto;
+    height: 257px;
+    margin-bottom:3px;
+    z-index: 100;
+}
+
+.titreMo{
+    white-space: pre-wrap;
+    width: 162px;
+}
+.titreMo:hover{
+    cursor: pointer
+}
+
+.auteurMo{
+}
+.auteurMo:hover{
+    cursor: pointer;
+}
+
+.editeurMo{
+    width: 162px;
+}
+
+.textMo{
+    position: relative;
+    float: left;
+    margin-bottom: 2px;
+    margin-left : 10px;
+    margin-top : 0px;
+    width : 290px;
+    height: 170px;
+    overflow: hidden;
+    display: none;
+}
+
+.info_content {
+    position: relative;
+    float: left;
+    width:172px;
+    height: 50px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.infosMo {
+    position: relative;
+    float: left;
+    width: 295px;
+    display: none;
+    margin-left : 5px;
+    font-size: 12px;
+    margin-top: 10px;
+    height: 100px;
+    padding:2px 0 0 5px;
+    background-color:#d2d1ca;
+}
+
+.libs .infosMo dt {
+    width: 45%;
+    float: left;
+    margin: 0;
+    padding-bottom:1px;
+}
+
+.libs .infosMo dd {
+    width: 55%;
+    float: left;
+    margin: 0;
+    padding-bottom:1px;
+}
+
+.infos_achatMo {
+    position: relative;
+    float: left;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.prixMo{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 40px;
+    max-width: 70px;
+    line-height: 40px;
+    vertical-align:middle;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.formatsMo{
+    position: relative;
+    float: left;
+    max-width: 50px;
+}
+
+.buy_buttonMo{
+    position: relative;
+    float: right;
+    opacity: 0.9;
+    margin-top: 9px;
+    margin-left: 5px;
+    margin-right: 8px;
+    height:32px;
+    width:32px;
+    background:url('http://www.sanspapier.com/images/icons/icon_dl.png') 0 2px no-repeat;
+}
+
+.buy_buttonMo:hover{
+    opacity: 1;
+}
+
+.info_buttonMo {
+    position: relative;
+    float: right; 
+    opacity: 0.8;
+    height:34px;
+    width:28px;
+    margin-top: 10px;
+    margin-right: 3px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -0px -10px no-repeat;
+}
+
+.info_buttonMo:hover{
+    opacity: 1;
+}
+
+.bookSheetIdLink{
+
+}
+
+
+
+/*
+    BIBLIO CONTAINERS
+*/
+#title_4{
+    display: none;
+    position: relative;
+    float: left;
+}
+
+#biblio_title{
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#empty_biblio{
+}
+
+
+.biblio_sheet {
+    position: relative;
+    float: left;
+    width: 556px;
+    height: 410px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.biblio_image {
+    position: relative;
+    float: right;
+    width: auto;
+    height: 360px;
+    /*    box-shadow: 1px 1px 10px #666;*/
+    z-index: 100;
+}
+
+.biblio_titre_auteur {
+    position: relative;
+    float: left;
+    min-height: 75px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 300px;
+}
+
+.biblio_titre {
+    white-space: pre-wrap;
+}
+.biblio_titre{
+    cursor: pointer;
+}
+
+.biblio_auteur {
+
+}
+
+.biblio_editeur {
+}
+
+.biblio_text {
+    position: relative;
+    float: left;
+    margin-bottom: 2px;
+    margin-left : 10px;
+    width : 290px;
+    height: 170px;
+    overflow: hidden;
+}
+
+.biblio_infos {
+    position: relative;
+    float: left;
+    width: 295px;
+    margin-left : 5px;
+    font-size: 12px;    
+    margin-top: 10px;
+    height: 95px;
+    padding:2px 0 0 5px;
+    background-color:#d2d1ca;
+    border-top:1px solid #D9D8D0;
+    border-left:1px solid #D9D8D0;
+    border-right:1px solid #D9D8D0;
+}
+
+#lib_4 .biblio_infos dt {
+    width: 45%;
+    float: left;
+    margin: 0;
+    padding-bottom:1px;
+}
+
+#lib_4 .biblio_infos dd {
+    width: 55%;
+    float: left;
+    margin: 0;
+    padding-bottom:1px;
+}
+
+.biblio_infos_achat{
+    position: relative;
+    float: left; 
+    margin-top: 5px;
+    margin-left : 10px;
+}
+
+.biblio_prix{
+    position: relative;
+    float: left;
+    max-width: 70px;
+}
+
+.biblio_formats {
+    position: relative;
+    float: left;
+    max-width: 70px;
+}
+
+.biblio_info_content {
+    position: relative;
+    float: left;
+    width:556px;
+    height: 50px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+

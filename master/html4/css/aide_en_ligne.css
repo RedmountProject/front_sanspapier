@@ -1,0 +1,164 @@
+body{
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*   ONGLETS    */
+
+.onglet {
+    position: relative;
+    float: left;
+    
+    margin-top: 0px;  
+    margin-right: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 25px;
+    
+    line-height: 25px;
+    vertical-align: central;
+    text-align: center;
+    
+    border-top-right-radius: 4px;  
+
+}
+
+.onglet:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.onglet a {
+    font-weight: bold;
+    width: auto;
+}
+
+
+.numerique{
+    background: #D9D8D0;
+}
+.drm{
+    background: #C9C8C0;
+}
+.compatibilite{
+    background: #B9B8B0;
+}
+
+/*      CONTENT     */
+
+#content{
+    position: relative;
+    float: left;
+    min-height: 2500px;
+    
+    overflow: hidden;
+}
+
+#content_slider{
+    position: absolute;
+    float: left;
+    width: 3000px;
+}
+
+.slide_container{
+    width: 950px;
+    
+    position: relative;
+    float: left;
+    height: 2500px;
+}
+
+.bandeau{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 0px;
+}
+
+.content{
+    position: relative;
+    float: left;
+    height: 500px;
+    width: 95%;
+    
+    padding: 20px;
+    text-align: justify;
+/*    
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    line-height: 400px;
+    vertical-align: central;*/
+}
+
+.contentTitle{
+    position: relative;
+    float: left;
+    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contentSubTitle{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    clear:both;
+}
+
+.forts{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    color: green;
+    opacity: 0.8;
+}
+
+.faibles{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    color: red;
+    opacity: 0.8;
+}
+
+.centerText{
+    text-align: center;
+    
+}
+
+.textLinks{
+    color: rosybrown;
+}
+
+.textContent{
+    position: relative;
+    float: left;
+    margin: 50px;
+}
+
+#content_0{
+    margin-left: 0px;
+    border: 5px solid #D9D8D0;
+}
+
+#content_1{
+    border: 5px solid #C9C8C0;
+}
+
+#content_2{
+    border: 5px solid #B9B8B0;
+}
+
+
+.capture{
+    border: 1px solid #333;
+}

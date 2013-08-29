@@ -1,0 +1,250 @@
+/*
+
+    CART CONTAINERS
+*/
+
+
+#panier_display {
+    margin-right: 5px;
+    padding: 5px;
+    position: relative;
+    float: right;
+    display: hidden;
+    max-height: 500px;
+    
+}
+
+.cart_container {
+    width: 300px; 
+    margin-top: 5px;
+}
+
+.bottom_cart_container {
+    width: 300px; 
+    margin-top: 5px;
+    clear:both;
+}
+
+.cartElement_container {
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 5px;
+/*    background: #DDDDDD;*/
+    opacity: 1;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #CACACA;
+}
+
+.cartElement_image {
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    border: 1px solid #DDD;
+}
+
+.cartElement_title {
+    width: 70%;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    white-space: pre-wrap;
+}
+
+
+.cartElement_author {
+    width: 70%;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    padding-top:2px;
+}
+
+.cartElement_price {
+    position: relative;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.cartElement_publisher {
+    width: 50%;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.cartElement_formats {
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 65%;
+}
+
+.delete_cartElement {
+    position: relative;
+    opacity: 0.7;
+}
+.delete_cartElement:hover{
+    opacity: 1;
+}
+
+.total_price {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.endCart{
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+    opacity: 0.7;
+    background-color: #000;
+    color: #FFF;
+}
+.endCart:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.emptyCart {
+    margin-left: 5px;
+}
+.emptyCart:hover {
+    text-decoration: underline;
+}
+
+#panier_display .total_price {
+    width: 100%;
+    text-align: right;
+}
+
+
+/* CHOOSE PRODUCT FORMAT QTIP  */
+
+#choose_format_display{
+    display: none;
+}
+
+#choose_format_content{
+    cursor:default;
+    width:350px;
+    height:400px;
+}
+
+#choose_format_title{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;  
+    vertical-align: central;
+    
+    background: #D9D8D0;
+}
+
+#choose_format_image{
+    position: relative;
+    float: left;
+    width: 172px;
+    height: 257px;
+    
+    margin:10px;
+    margin-left: 89px;
+    
+    border: 1px solid #D9D8D0;
+}
+
+#choose_format_price{
+    position: relative;
+    float: left;
+    width:100%;
+    height: 20px;
+    
+    margin-bottom: 10px;
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#choose_format_formats{
+    position: relative;
+    float: left;
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.choose_format_oneFormat{
+    width: 100%;
+    margin-bottom: 10px;
+    height:27px;
+    
+    line-height: 27px;
+    vertical-align: central;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.choose_format_multipleFormat{
+    position: relative;
+    float: left;
+    width: 55%;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+#choose_format_help{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    
+    width: 100%;
+    height: 40px;
+    
+    font-size: 12px;
+    text-align: center;
+    
+    background: #D9D8D0;
+}
+
+.choose_format_button{
+    position: relative;
+    float: right;
+    opacity: 0.9;
+    height:32px;
+    width:170px;
+    background:url("http://www.sanspapier.com/images/icons/button_dl.png") no-repeat scroll 0 0 transparent;
+    
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+.choose_format_button:hover{
+    opacity: 1;
+}
+
+
+.choose_format_close{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+
+    z-index: 10000;
+        
+    cursor: pointer;
+}

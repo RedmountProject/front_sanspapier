@@ -1,0 +1,38 @@
+
+
+.index_search_bar{
+    width: 550px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.index_search_bar input {
+    width : 450px;
+    position: relative;
+    height: 60px;
+}
+
+#search_result {
+    position: relative;
+    display: none;
+}
+
+#panier_display {
+    position: relative;
+    display: hidden;
+}
+
+.button {
+    text-align: center;
+    /*height: 51px;*/
+}
+
+.button:hover {
+    cursor: pointer;
+
+}

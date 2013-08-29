@@ -1,0 +1,587 @@
+
+/*   global */
+
+body {
+    color: #666; 
+    background: #fff; 
+}    
+
+h3 {
+    color: #FFF;
+}
+
+a {
+    color: #555;
+}
+
+.session {
+    color:black;
+}
+
+input {
+    background-color: #fff;
+}
+
+/*  index   */
+#slogan {
+    color: #444;
+}
+
+#noresult {
+    color: #000;
+}    
+
+.index_search_bar{
+    background-color: #E9E8E0;
+}
+
+.full_width {
+    
+}
+
+
+
+/*------------------search------------------*/
+
+
+#header, #filtres {
+    background-color: #E9E8E0;
+}
+
+.filter_container {
+    background-color:#fff;
+}
+
+#price_bar{
+    background: #E9E8E0;
+    border-color: #E9E8E0;
+}
+
+.toggle_round{
+    border-color: #E9E8E0;
+    background: #444;
+}
+
+.toggle{
+    border-color: #E9E8E0;
+    background: #444;
+}
+
+#search_bar_top {
+    background-color: transparent;
+    color: #444;
+}
+
+#search{
+    color: #444;
+}
+
+#search_bar_middle {
+    background-color: #fff;
+    color: #444;
+}
+
+#middle_search{
+    color: #666;
+}
+
+#middle_search:hover{
+}
+
+#scroll_fixed {
+    background-color: transparent;
+}
+
+.button {
+    background-color: transparent;
+}
+
+#user_name{
+    color: #444;
+}
+
+#form input {
+    background: #FFF;
+    color: #444;
+    border: 1px solid #444;
+}
+
+#form #_submit, #form #create, #form #reset_password {
+    color: #FFF;
+    background: #000;
+    opacity: 0.7;
+}
+
+#form #_submit:hover, #form #create:hover, #form #reset_password:hover {
+    opacity: 1;
+}
+
+
+#ui-tooltip-0-content{
+    background: #FFF;
+    color: #444;
+}
+#ui-tooltip-0 #form{
+    background: #fff;
+}
+
+/*
+    ------------hover content-----------------
+*/
+
+.hover_content {
+    background: #FFF;
+}
+
+.hover_titre_auteur {
+    
+}
+
+.hover_title {
+    color:#555;
+}
+.hover_title:hover{
+    color:#000;
+}
+
+.hover_auteur {
+    color:#555;
+}
+
+.hover_publisher {
+    color: #AAA;
+}
+
+.hover_description {
+}
+
+.hover_infos_achat{
+
+}
+
+.little_buy_button{
+
+}
+
+.hover_prix{
+}
+
+.hover_formats {
+}
+
+
+/*   categories    */
+
+/*----------CATEGORIES AND COLUMNS----------*/
+
+.onglet {
+    color: #444;
+}
+
+.change_col{
+    background-color: #D9D8D0;
+}
+
+#call_0 {/*A LA UNE*/
+    background: #D9D8D0;
+    color: #444;
+}
+
+#call_1{/*LES EDITEURS #C9C8C0 */
+    background: #C9C8C0;
+}
+
+#call_2{/*LES GENRES #B9B8B0 */
+    background: #b8b7ae;
+}
+
+#call_3{/*LES KEYWORDS #A9A8A0 */
+    background: #b0afa7;
+}
+
+#call_4 {/*BIBLIO #444 */
+    color: #f2f1e9;
+    background: #a1a099;
+}
+
+#biblio_display{
+    background: #878680;
+}
+
+#title_0{
+    background: #D9D8D0;
+}
+/*  COLORS FOR CATEGORIES TITLES   */
+.titles .column1{
+    background: #e90b3e;
+    color: #fdfffe;
+}
+
+.titles .column2{
+    background: #78c6d0;
+    color: #fdfffe;
+}
+
+.titles .column3{
+    background: #39ac81; 
+    color: #fdfffe;
+}
+
+.titles .column4{
+    background: #ffb300;
+    color: #fdfffe;
+}
+
+.titles .column5{
+    background: #80d300;
+    color: #fdfffe;
+}
+
+/*  COLORS FOR COLUMNS TITLES   */
+.col_1 .info_content {
+    background: #e90b3e;
+    color: #fdfffe;
+}
+
+.col_2 .info_content {
+    background: #78c6d0;
+    color: #fdfffe;
+}
+
+.col_3 .info_content {
+    background: #39ac81;
+    color: #fdfffe;
+}
+
+.col_4 .info_content {
+    background: #ffb300;
+    color: #fdfffe;
+}
+
+.col_5 .info_content {
+    background: #80d300;
+    color: #fdfffe;
+}
+
+.mos_container {
+    background: #D9D8D0;
+}
+
+/*
+    MOSAIQUE CONTAINERS
+*/
+
+.fiche_mosaique {
+    color: #555;
+    background-color: #C9C8C0;
+}
+.fiche_mosaique:hover{
+/*    background-color: #A9A8A0;*/
+    box-shadow: 1px 1px 10px #666;
+}
+
+.buy_buttonMo{
+    border-color: #555;
+}
+
+.bookSheetIdLink{
+}
+
+.editeurMo, .biblio_editeur {
+    color: #FFE;
+}
+
+.biblio_auteur{
+    color: #555;
+}
+
+.biblio_titre{
+    
+}
+.biblio_titre:hover{
+    color: #000;
+}
+
+
+#biblio_title{
+    background: #ffb300;
+    color: #fdfffe;
+}
+
+.biblio_info_content {
+    background: #ffb300;
+    color: #fdfffe;
+}
+
+.titre_auteur{
+
+}
+
+.imageMo{
+
+}
+
+.titreMo{
+    color: #555;
+}
+.titreMo:hover{
+    color:#000;
+}
+
+.auteurMo{
+    color: #555;
+}
+
+.textMo{
+
+}
+
+.info_content {
+
+}
+
+.infosMo {
+    
+}
+
+.infos_achatMo {
+
+}
+
+.prixMo{
+    color: #FFF;
+}
+
+.formatsMo{
+
+}
+
+.buy_buttonMo{
+
+}
+.buy_buttonMo:hover{
+}
+
+.info_buttonMo {
+    
+}
+.info_buttonMo:hover{
+    
+}
+
+.bookSheetIdLink{
+    
+}
+
+
+/*
+    BIBLIO CONTAINERS
+*/
+
+.biblio_sheet {
+    color: #555;
+    background-color: #C9C8C0;
+}
+
+
+
+/*    shop    */
+
+.empty {
+    
+}
+
+#shop h3{
+    color: #444;
+}
+
+#shop_cartDisplay{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border: 2px solid #444;
+    background: #FFF;
+}
+
+#shop_menu {
+    background-color: #E9E8E0;
+    border-color: #fff; 
+}
+
+.step{
+    background: #C9C8C0;
+}
+
+#shop #form {
+    
+}
+
+#total_price {
+/*    background: #F7D358;*/
+}
+
+#yellow_background{
+    
+}
+
+
+#end_button {
+
+}
+
+.cartElement_title {
+    
+}
+.cartElement_title:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.cartElement_author {
+    color: #555;
+}
+.cartElement_author:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.cartElement_price {
+    
+} 
+
+.cartElement_publisher {
+    color: #666;
+}  
+
+#panier_display .cartElement_publisher {
+    color: #666;
+}  
+
+.delete_cartElement {
+    
+}  
+
+
+
+/*   CART CONTAINERS   */
+
+
+.cartElement_container {
+    border-color: #CACACA;
+}
+
+
+
+/*   fiche livre   */
+
+#booksheet a {
+    color: black;
+}
+
+.container_fiche {
+    background-color: #fff; 
+}
+
+#booksheet .image {
+    background-color: transparent;
+}  
+
+#booksheet .titre_logo {
+    background-color: #444;
+}
+
+#booksheet .titres h1 {
+    color: #FFF;
+}
+
+#booksheet .titres h2 {
+    color: #DDD;
+}
+
+#booksheet .text {
+    
+}
+
+#booksheet .infos_achat{
+    /*background-color: #DDD;*/
+}
+
+#booksheet .prix{
+    color: #444;
+}
+
+#booksheet .buy_button{
+    
+}
+
+#booksheet .auteur_slider, .editions_slider{
+    background: #E9E8E0;
+}
+
+#booksheet .format_slider{
+    background-color:#FFF;
+}
+
+#booksheet #sameAuthor_title, #formats_title{
+   background: #444;
+   color: #fff;
+}
+
+#booksheet #sameEd_title{
+   background: #BBB;
+   color: #444;
+}
+
+#booksheet .slider_cont {
+    background-color: transparent;
+    color: #444;
+}
+
+/*  profile */
+
+.profile_container {
+    background: #FFF;
+}
+.profile_container h3{
+    color: #666;
+}
+
+.shelfElement_container{
+
+}
+
+.shelfElement_image{
+    border:1px solid #D9D8D0;
+}
+
+.shelfElement_title{
+
+}
+
+.shelfElement_author{
+
+}
+
+.shelfElement_publisher{
+    color: #666;
+}
+
+.shelfElement_price{
+
+}
+
+.shelfElement_format{
+}
+
+.shelfElement_dwnldLink{
+}
+
+
+
+.authorName{
+    
+}
+.authorName:hover{
+    color: #000;
+
+}

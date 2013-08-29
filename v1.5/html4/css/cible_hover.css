@@ -1,0 +1,131 @@
+/*
+    hover content
+*/
+
+.targetImgBook{
+    cursor: pointer;
+}
+
+.targetImgBook .ui-tooltip{
+    padding: 5px;
+}
+
+.hover_content {
+    width: 260px;
+    height: 190px;
+}
+
+.hover_titre_auteur {
+    position: relative;
+    float: left;   
+    margin-bottom: 6px;
+    width: auto;
+    text-align:left;
+}
+
+.hover_title {
+    position: relative;
+    float: left;
+    margin-bottom: 2px;
+    line-height: 15px;
+    width: auto;
+}
+.hover_title:hover{
+    cursor: pointer;
+}
+
+.hover_auteur {
+    position: relative;
+    float: left;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.hover_auteur:hover{
+    cursor: pointer;
+}
+
+.hover_publisher {
+    position: relative;
+    float: left;
+}
+
+.hover_description {
+    position: relative;
+    float: left;
+    margin-bottom: 0px;
+    height: 60px;
+    width: 260px;
+    overflow: hidden;
+}
+.hover_description span:hover{
+    text-decoration: none;
+    cursor: default;
+}
+
+.hover_infos_achat{
+    position: relative;
+    float: left;
+    width: 100px;
+    margin-top: 5px;
+    cursor: default;
+}
+
+.hover_buttons{
+    position: relative;
+    float: right;
+    width:110px;
+    height:34px;
+}
+
+.info_buttonHover{
+    opacity: 0.7;
+    position: relative;
+    float: right;
+    width: 107px;
+    height: 27px;
+    background:url('http://www.sanspapier.com/images/icons/info.png') no-repeat;
+}
+.info_buttonHover:hover{
+    opacity: 1;
+}
+
+.little_buy_button{
+    opacity: 0.7;
+    position: relative;
+    float: right;
+    width: 107px;
+    height: 27px;
+    background:url('http://www.sanspapier.com/images/icons/add_to_cart.png') no-repeat;
+    display: inline-block;
+    margin-top:4px;
+}  
+.little_buy_button:hover{
+    opacity: 1;
+}
+
+.hover_prix{
+    position: relative;
+    float: left;
+    margin-bottom: 4px;
+}
+
+.hover_formats {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-top:5px;
+    width: 150px;
+}
+
+.advertiseDrag {
+    width: 402px;
+    height:22px;
+    line-height:22px;
+    position:absolute;
+    font-size:11px;
+    font-weight:bold;
+    color:#EEE;
+    background-color:#454543;
+    text-align:center;
+    cursor:default;
+}

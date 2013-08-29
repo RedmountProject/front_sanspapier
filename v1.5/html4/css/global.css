@@ -1,0 +1,564 @@
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+root { 
+    display: block;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+a {
+}
+
+li {
+    list-style-type: none;
+}
+img {
+    border:0;
+}
+
+body {
+    margin: 0px;  
+    width: 100%;
+}
+
+span:hover {
+    text-decoration: none;
+}
+
+.full_width {
+    width: 100%;
+    margin: 0px;
+}
+
+.hidenn {
+    display: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+#ui-tooltip-2{
+    height: auto;
+}
+
+#ui-tooltip-0{
+    height: auto;
+    min-height: 80px;
+}
+
+#ui-tooltip-1{
+    height: auto;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+/*   header   */
+
+#header {
+    margin: 0;
+    position: relative;
+    float: left;
+    z-index: 700;
+    height: 55px;
+
+}
+
+#sp {
+    position: fixed;
+    z-index: 9500;
+}
+
+#logo {
+    z-index: 800;
+    height: 140px;
+    width: auto;
+    line-height: 120px;
+    text-align:center;
+    margin-top:-18px;
+}
+
+#logo img {
+    opacity: 0.7;
+    vertical-align:middle;
+}
+#logo img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#container_buttons{
+    position: relative;
+    float: left;
+
+}
+
+#filtres {
+    margin: 0;
+    height: 90px;
+    position: relative;
+    z-index: 400;
+    float: left;
+    -webkit-box-shadow: 0 6px 15px -12px #444;
+    -moz-box-shadow: 0 6px 15px -12px #444;
+    box-shadow: 0 6px 15px -12px #444;
+}
+
+#slogan {
+    position: relative;
+    float: left;
+    height: 40px;
+    line-height:40px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.center_bar {
+    width: 450px;
+    height : 40px;
+    vertical-align:middle;
+    display:inline-block;
+    text-align: left;
+}
+
+#search_bar_top {
+    position: relative;
+    float: left;
+    height: 35px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+#search_bar_top input[type="text"] {
+    width : 400px;
+    position: relative;
+    height: 30px;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border:1px solid #D9D8D0;
+
+    padding-left: 5px;
+}
+
+
+input[type="submit"] {
+
+}
+
+input[type="text"] {
+    border: 1px solid #444;
+}
+
+.button_header {
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    margin-top: 5px;
+    height: 30px;
+    opacity: 0.7;
+}
+
+.button_header:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#cart {
+    position: relative;
+    float: left;
+    opacity: 0.7;
+    height:30px;
+    width:90px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-right: 0;
+    padding-bottom: -30px;
+
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -606px -11px no-repeat;
+}
+
+#cart:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+#cartCount{
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+#validateAddToCartQtip {
+    height : 30px;
+}
+
+#mon_compte {
+    height:27px;
+    width:106px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -704px -15px no-repeat;
+}
+
+#mon_compte_bis {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    height:27px;
+    width:106px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -704px -15px no-repeat;
+    opacity: 0.7;
+}
+
+#aide_en_ligne{
+    height: 27px;
+    width: 106px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -705px -115px no-repeat;
+}
+
+#go_filter{
+    height:17px;
+    width:51px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -826px -63px no-repeat;
+
+    opacity: 0.8;
+    margin-top: 10px;
+}
+#go_filter:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#center_submit_search_img {
+    opacity: 0.7;
+    height:28px;
+    width:28px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -76px -13px no-repeat;
+    float:right;
+    margin-right: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+#center_submit_search_img:hover{
+    opacity: 1;
+}
+
+#top_submit_search_img {
+    height:28px;
+    width:28px;
+    background:url('http://www.sanspapier.com/images/sp_sprite.png') -76px -13px no-repeat;
+    float:right;
+    margin-right: 0px;
+    margin-top: 4px;
+    cursor: pointer;
+
+    opacity: 0.8;
+    border: none;
+}
+#top_submit_search_img:hover{
+    opacity: 1;
+}
+
+#telecharger{
+    height:27px;
+    width:60px;
+    margin-top:-8px;
+    margin-bottom: 5px;
+    
+    border: 2px solid #444;
+}
+#telecharger:hover{
+    border: 2px solid #000;
+}
+
+.authorName{
+
+}
+.authorName:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#comments{
+    position: fixed;
+    width: 170px;
+    height: 70px;
+    bottom: 0;
+    right: 0;
+    z-index: 20004;
+    background-color: #FFFFA3;
+    color: #444;
+
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+
+    border-left: solid 2px #444;
+    border-top: solid 2px #444;
+
+}
+
+#commentsForm{
+    display: none;
+    position: relative;
+    float: left;
+    z-index: 1000;
+    padding: 10px;
+    height: 300px;
+    color: #555;    
+}
+
+#comment_subject{
+    position: relative;
+    float: left;
+    color: #555;
+    margin: 0;
+    font-size: 14px;
+    width:80%;
+    border: none;
+}
+
+#comment_text{
+    padding: 5px;
+    position: relative;
+    float: left;
+    width: 90%;
+    color: #555;
+    height: 170px;
+    line-height: 15px;
+    vertical-align: top;
+    margin-left: 2px;
+    border: none;
+    font-size: 14px;
+    font-family: arial;
+}
+
+#comment_mail{
+    position: relative;
+    float: left;
+    color: #555;
+    margin-top: 3px;
+    font-size: 14px;
+    width: 90%;
+    border: none;
+}
+
+#send_comment{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 2px;
+    margin-left: 2px;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    background: #000;
+    opacity: 0.8;
+    color: #FFF;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    font-size: 14px;
+    width: 80px;
+    height: 20px;
+}
+
+#send_comment:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#commentHere {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px;
+    text-align:center;
+    display:inline-block;
+}
+
+#commentHere:hover{
+    cursor: pointer;
+}
+
+#thanksComment{
+    font-size: 13px;
+    color:#39AC81;
+    font-weight: normal;
+    text-align:center;
+    padding:0;
+    margin-top:-3px;
+}
+
+#close_comments{
+    font-size: 20px;
+    position: relative;
+    float: right;
+    width: 20px;
+    opacity: 0.7;
+    padding-right: 10px;
+}
+
+#close_comments:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+#box_shadow{
+    position: absolute;
+    left: 820px;
+    top: 32px;
+    z-index:20;
+
+    width: 50px;
+    height: 100px;
+
+    -webkit-box-shadow: 0px 1px 15px rgba(50, 50, 50, 0.78);
+    -moz-box-shadow:    0px 1px 15px rgba(50, 50, 50, 0.78);
+    box-shadow:         0px 1px 15px rgba(50, 50, 50, 0.78);
+}
+
+#tutorial_container{
+    position: fixed;
+    z-index: 20000;
+}
+
+.tutorial{
+    position: absolute;
+    left:768px;
+    top: 145px;  
+    width: 192px;  
+    background: #E9E8E0;
+    opacity : 0.95;
+    color : #444;
+    text-align: left;
+
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -moz-border-bottom-left-radius: 4px;
+    -moz-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+}
+
+.didactitiel {
+    height : 16px;
+    
+}
+
+#tutorial_container p { 
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#tuto_on_off {
+    position: fixed;
+    z-index: 10000;
+    height: 27px;
+}
+
+.tuto_button {
+    position: absolute;
+    left:852px;
+    top: 115px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('http://www.sanspapier.com/images/icone_On21.png') 0px 0px no-repeat;
+}
+
+.entete_tuto_content {
+    width:100%;
+    height:18px;
+    line-height:18px;
+    background-color:#454543;
+    color:#EEE;
+    font-size:11px;
+    font-weight:bold;
+    text-align:left;
+    margin:-5px 0 3px -5px;
+    padding-left:5px;
+}
+
+.tuto_content {
+    display: none;
+    padding : 5px 0 5px 5px;
+    border-color: #fff;
+    border-top-color: #999;
+    border-width: 2px;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-style: solid;   
+    border-bottom-left-radius: 4px;
+    -moz-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+}
+
+.result {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.top_didactitiel_deco {
+    height : 1px;
+    background-color: #444;
+}
+
+#footer{
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    background: #444;
+    color: #FFF;
+}
+
+#copyright{
+    position: relative;
+    margin:5px auto;
+    width: 365px;
+    text-align: center;
+    font-size:12px;
+    font-weight:bold;
+}
+
+#footer_left{
+    float:left;
+    margin-top:3px;
+}
+
+#footer_right{
+    float:right;
+}
+
+#a_propos{
+    cursor: pointer;
+}
+#a_propos:hover{
+    text-decoration: underline;
+}

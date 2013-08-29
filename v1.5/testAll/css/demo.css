@@ -1,0 +1,106 @@
+/* 
+    Document   : demo
+    Created on : 1 mai 2012, 16:09:42
+    Author     : Matthieu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    width: 100%;
+    background: #fff; 
+    color: #666;
+    font: 200 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+
+
+#holder {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #fff;
+    z-index: 3;
+}
+
+.tooltip{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   display: none;
+}
+
+a {
+    font-size: 16px;
+    color: #555;
+    text-decoration: underline;
+}
+
+
+/*
+    hover content
+*/
+
+.hover_content {
+    width: 200px;
+}
+
+.hover_titre_auteur {
+    position: relative;
+    float: left;   
+    margin-bottom: 5px;
+    
+}
+
+.hover_title {
+    position: relative;
+    float: left;
+    font-size: 18px;
+}
+
+.hover_auteur {
+    position: relative;
+    float: left;
+    font-size: 16px;
+}
+
+.hover_description {
+    position: relative;
+    float: left;
+    width: auto;
+    font-size: 12px;
+    margin-bottom: 5px;
+    width : 200px;
+}
+
+.hover_infos_achat{
+    position: relative;
+    float: left;
+    
+    
+}
+
+.little_buy_button{
+    position: relative;
+    float: right;
+    margin-right: 0px;
+    border: 1px solid #555;
+    width: 90px;
+    height: 50px;
+}
+
+.hover_prix{
+    position: relative;
+    float: left;
+    max-width: 70px;
+}
+
+.hover_formats {
+    position: relative;
+    float: left;
+    font-size: 12px;
+    max-width: 70px;
+}

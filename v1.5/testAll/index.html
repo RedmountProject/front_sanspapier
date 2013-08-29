@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="content-type" 
+              content="text/html;charset=utf-8" />
+
+        <title>Sans Papier</title>
+
+        <link rel="stylesheet" href="css/grid_system.css" type="text/css" media="screen"/>
+
+        <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen"/>
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/transitions_jquery.js"></script>
+        <script type="text/javascript" src="http://www.shawnolson.net/scripts/public_smo_scripts.js"></script>
+        <script type="text/javascript" src="js/fiche_mosaique.js"></script>
+        <script type="text/javascript" src="js/categories.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
+        <script type="text/javascript" src="js/changeCat.js"></script>
+        <script type="text/javascript" src="js/scroll_fixed.js"></script>
+
+    </head>
+
+    <body>
+
+        <!--Header-->
+
+        <div class="full_width" id="header">
+
+            <div class="container_5">
+                <div class="grid_1" style="height: 100px;">
+                    <img src="images/logo.png" BORDER=0/>  
+                </div>
+                <div class="grid_3" style="height: 100px;"></div>
+                <div class="grid_1" style="height: 100px;">
+                    <div class="button_header mon_compte">Mon Compte</div>
+                    <div class="button_header">A propos</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container_5" style="position: relative; height: 100px;">
+        </div>
+
+        <div class="full_width" id="filtres">
+            <div class="container_5">
+                <div class="grid_1" style="height: 40px;"></div>
+                <div class="grid_1 button">prix<br/>v</div>
+                <div class="grid_1 button">formats<br/>v</div>
+                <div class="grid_1 button">drm<br/>v</div>
+                <div class="grid_1 button">panier<br/>v</div>
+            </div>
+        </div>
+
+        <div class="container_5" style="position: relative; height: 50px;">
+        </div>
+
+        <div class="clear"></div>
+
+        <!--Cible area-->
+
+        <div class="container_5">
+            <div id="index">
+                <div class="grid_1" style="height: 30px;"></div>
+                <div class="grid_3" id="search_bar_middle">
+                    search
+                </div>
+            </div>
+        </div>
+
+        <div class="container_5" id="space" style="position: relative;">
+        </div>
+
+
+        <!-- Mosaique -->
+        <div id="scroll_fixed" class="full_width">
+            <div class="container_5">
+                <div class="grid_12" style="height: 5px;"></div>
+                <a class="grid_1 onglet" href="javascript:void(0)" onclick="changeCat('0', 'change_col')">A la une</a>
+                <a class="grid_1 onglet mon_compte" href="javascript:void(0)" onclick="changeCat('1', 'change_col')">Mes sélections</a>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="change_col" style="height: 50px;">
+
+                <div class="container_5">
+
+                    <ul id="categories">
+
+                        <li class="grid_1 column1 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+
+                        <li class="grid_1 column2 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+
+                        <li class="grid_1 column3 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+
+                        <li class="grid_1 column4 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+
+                        <li class="grid_1 column5 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container_5">
+            <div id="columns">
+
+                <div class="grid_1 column1">
+                    <div class="fiche_mosaique col_1">
+                        <div class="imageMo">
+                            <img src="images/test_mosaique.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </div>
+                        <div class="infos_achatMo">
+                            ACHAT
+                        </div>
+                    </div>
+
+                    <div class="fiche_mosaique col_1">
+                        <div class="imageMo">
+                            <img src="images/test_mosaique.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </div>
+                        <div class="infos_achatMo">
+                            ACHAT
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_1 column2">
+                <div class="fiche_mosaique col_2">
+                    <div class="imageMo">
+                        <img src="images/test_mosaique.png"></img>
+                    </div>
+                    <div class="titre_auteur">
+                        <div class="titreMo">
+                            L'enfant d'entre les deux
+                        </div>
+                        <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                    </div>
+                    <div class="textMo">
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                    <div class="infos_achatMo">
+                        ACHAT
+                    </div>
+                </div>
+
+                <div class="fiche_mosaique col_2">
+                    <div class="imageMo">
+                        <img src="images/test_mosaique.png"></img>
+                    </div>
+                    <div class="titre_auteur">
+                        <div class="titreMo">
+                            L'enfant d'entre les deux
+                        </div>
+                        <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                    </div>
+                    <div class="textMo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    </div>
+                    <div class="infos_achatMo">
+                        ACHAT
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_1 column3">
+                <div class="fiche_mosaique col_3">
+                    <div class="imageMo">
+                        <img src="images/test_mosaique.png"></img>
+                    </div>
+                    <div class="titre_auteur">
+                        <div class="titreMo">
+                            L'enfant d'entre les deux
+                        </div>
+                        <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                    </div>
+                    <div class="textMo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                    <div class="infos_achatMo">
+                        ACHAT
+                    </div>
+                </div>
+
+                <div class="fiche_mosaique col_3">
+                    <div class="imageMo">
+                        <img src="images/test_mosaique.png"></img>
+                    </div>
+                    <div class="titre_auteur">
+                        <div class="titreMo">
+                            L'enfant d'entre les deux
+                        </div>
+                        <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                    </div>
+                    <div class="textMo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                    <div class="infos_achatMo">
+                        ACHAT
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_1 column4">
+                <div class="fiche_mosaique col_4">
+                    <div class="imageMo">
+                        <img src="images/test_mosaique.png"></img>
+                    </div>
+                    <div class="titre_auteur">
+                        <div class="titreMo">
+                            L'enfant d'entre les deux
+                        </div>
+                        <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                    </div>
+                    <div class="textMo">
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                    <div class="infos_achatMo">
+                        ACHAT
+                    </div>
+                </div>
+
+                <div class="fiche_mosaique col_4">
+                    <div class="imageMo">
+                        <img src="images/test_mosaique.png"></img>
+                    </div>
+                    <div class="titre_auteur">
+                        <div class="titreMo">
+                            L'enfant d'entre les deux
+                        </div>
+                        <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                    </div>
+                    <div class="textMo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                    <div class="infos_achatMo">
+                        ACHAT
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid_1 column5">
+                <div class="fiche_mosaique col_5">
+                    <div class="imageMo">
+                        <img src="images/test_mosaique.png"></img>
+                    </div>
+                    <div class="titre_auteur">
+                        <div class="titreMo">
+                            L'enfant d'entre les deux
+                        </div>
+                        <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                    </div>
+                    <div class="textMo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                    <div class="infos_achatMo">
+                        ACHAT
+                    </div>
+                </div>
+
+                <div class="fiche_mosaique col_5">
+                    <div class="imageMo">
+                        <img src="images/test_mosaique.png"></img>
+                    </div>
+                    <div class="titre_auteur">
+                        <div class="titreMo">
+                            L'enfant d'entre les deux
+                        </div>
+                        <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                    </div>
+                    <div class="textMo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </div>
+                    <div class="infos_achatMo">
+                        ACHAT
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+    </body>
+
+</html>

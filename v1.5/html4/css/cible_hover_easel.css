@@ -1,0 +1,175 @@
+/*
+    hover content
+*/
+
+.targetImgBook{
+    cursor: pointer;
+}
+
+.hover_content {
+    position: absolute;
+    width: 260px;
+    height: 194px;
+    overflow: hidden;
+    z-index: 4;
+    background-color: #FFF;
+}
+
+.hover_content_noPivot {
+    position: absolute;
+    width: 295px;
+    height: 98px;
+    overflow: hidden;
+    z-index: 4;
+    margin-left: -230px;
+    margin-top: 40px;
+    opacity: 0.92;
+    padding: 6px;
+    border: 1px solid #666666;
+    color: #666666;
+}
+
+.header_description_noPivot {
+    float:left;
+    margin-top:-4px;
+    margin-left:-3px;
+}
+
+.title_description_noPivot {
+    font-weight: bold;
+    text-decoration:underline;
+    height:35px;
+    line-height:35px;
+    float:right;
+    margin-left:3px;
+}
+
+.body_description_noPivot {
+    padding-left:30px;
+    clear:both;
+}
+
+.hover_titre_auteur {
+    text-align: left;
+    position: relative;
+    float: left;   
+    margin-bottom: 6px;
+    width: auto;
+}
+
+.hover_title {
+    position: relative;
+    float: left;
+    margin-bottom: 2px;
+    line-height: 15px;
+    width: auto;
+    cursor: pointer;
+}
+.hover_title:hover{
+    cursor: pointer;
+}
+
+.hover_auteur {
+    position: relative;
+    float: left;
+    margin-bottom: 0px;
+    width: 100%;
+    cursor: pointer;
+}
+.hover_auteur:hover{
+    cursor: pointer;
+}
+
+.hover_publisher {
+    position: relative;
+    float: left;
+}
+
+.hover_description {
+    position: relative;
+    float: left;
+    margin-bottom: 0px;
+    height: 60px;
+    width: 260px;
+    overflow: hidden;
+    cursor: default;
+}
+.hover_description span:hover{
+    text-decoration: none;
+    cursor: default;
+}
+
+.hover_infos_achat{
+    position: relative;
+    float: left;
+    width: 100px;
+    margin-top: 5px;
+    cursor: default;
+}
+
+.hover_buttons{
+    position: relative;
+    float: right;
+    width:110px;
+    height:34px;
+}
+
+.info_buttonHover{
+    opacity: 0.7;
+    position: relative;
+    float: right;
+    width: 107px;
+    height: 27px;
+    background:url('http://www.sanspapier.com/images/icons/info.png') no-repeat;
+    cursor:pointer;
+}
+.info_buttonHover:hover{
+    opacity: 1;
+    cursor:pointer;
+}
+
+.little_buy_button{
+    opacity: 0.7;
+    position: relative;
+    float: right;
+    width: 107px;
+    height: 27px;
+    background:url('http://www.sanspapier.com/images/icons/add_to_cart.png') no-repeat;
+    display: inline-block;
+    margin-top:4px;
+    cursor:pointer;
+}  
+.little_buy_button:hover{
+    opacity: 1;
+    cursor:pointer;
+}
+
+.hover_prix{
+    position: relative;
+    float: left;
+    margin-bottom: 4px;
+    margin-top:4px;
+}
+
+.hover_formats {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-top:5px;
+    width: 150px;
+    text-align:left;
+}
+
+
+.advertiseDrag {
+    width: 402px;
+    height:22px;
+    line-height:22px;
+    position:absolute;
+    font-size:11px;
+    font-weight:bold;
+    color:#EEE;
+    background-color:#454543;
+    text-align:center;
+    cursor:default;
+}

@@ -1,0 +1,52 @@
+.ui-autocomplete {
+    z-index: 9000;
+    background-color:  #FFF;
+    color: #444;
+/*    border-bottom: #444 thin solid;
+    border-left: #444 thin solid;
+    border-right: #444 thin solid;*/
+}
+
+.ui-helper-hidden-accessible {
+    visibility: hidden;
+}
+
+#autocomplete-attach {
+    width: 300px;
+    display: block; 
+}
+
+.ui-menu-item, .ui-autocomplete-category {
+    min-height: 25px;
+    line-height: 25px;
+    border-bottom:  #B8B7AE thin solid;
+    border-left:  #B8B7AE thin solid;
+    border-right:  #B8B7AE thin solid;
+}
+
+.ui-menu-item {
+    font-size: 11px;
+    text-align: left;
+    padding-left: 30px;
+    background-color: #FFF;
+}
+
+.ui-menu-item a {
+    font-size: 11px;
+}
+
+.ui-menu-item:hover {
+    background-color: #E9E8E0;
+    cursor: pointer;
+}
+
+.ui-autocomplete-category {
+    background-color: #C9C8C0;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.ui-autocomplete-free {
+/*    border-top-width:15px;*/
+}

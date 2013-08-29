@@ -1,0 +1,527 @@
+
+/*  balises    */
+
+h1 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    font: 200 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+
+.suite_description {
+    font-style:italic;
+    font-size:11px;
+    font-weight:bold;
+}
+
+/* index */
+#slogan {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Trebuchet MS;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+#noresult {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Trebuchet MS;
+    letter-spacing: 0.05em;
+    font-style: normal;
+}
+
+
+#cible {
+    font-size: 36px;
+}
+
+.button {
+    font-size: 16px;
+}
+
+#user_name{
+    
+}
+
+/*  header */
+
+#search {
+    font-size: 20px;
+    font-family: Trebuchet MS;
+}
+
+#middle_search {
+    font-size: 24px;
+    font-family: Trebuchet MS;
+    font-style: italic;
+}
+#middle_search:focus{
+    font-style: normal;
+}
+
+#result_pagination{
+    font-size: 16px;
+    font-family: Trebuchet MS;
+}
+
+.pagination_feedback{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+#footer{
+    font-family: Arial;
+    
+}
+
+
+/*  filters */
+
+.filter_container {
+    font-size: 12px;
+}
+
+.filter_title {
+    font-weight:bold;
+    color:#111;
+}
+
+.feedback {
+    font-size:11px;
+    color:#555;
+}
+
+
+/* categories   */
+/*#call_0 {
+    font-weight:bold;
+    font-size: 14px;
+}*/
+
+
+.titles {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.onglet a, .onglet a:hover {
+    font-size: 14px !important; 
+    text-decoration: none;
+}   
+
+.titreMo{
+    font-size: 14px;
+    font-weight: bold;
+}   
+
+.auteurMo{
+    font-size: 12px;
+}
+
+.editeurMo{
+    font-size: 12px;
+    font-weight:bold;
+}
+
+.textMo{
+    font-size : 14px;
+    text-align:justify;
+}
+
+.infosMo {
+    font-size: 14px;
+}
+
+.infos_achatMo {
+    
+}
+
+.prixMo{
+    font-size: 18px;
+}
+
+.formatsMo{
+    font-size: 10px;
+} 
+
+.libs .infosMo dt {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.libs .infosMo dd {
+    font-size: 12px;
+}
+
+.libs .biblio_infos dt {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.libs .biblio_infos dd {
+    font-size: 12px;
+}
+
+.bookSheetIdLink{
+    text-decoration-line: underline;
+    text-decoration-style: underline;
+}  
+
+
+/*  biblio   */
+#biblio_title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.biblio_titre_auteur {
+
+} 
+
+.biblio_titre {
+    font-size: 14px;
+    font-weight: bold;
+} 
+
+.biblio_auteur {
+    font-size: 12px;
+}
+
+.biblio_editeur {
+    font-size: 12px;
+    font-weight:bold;
+}
+
+.biblio_text {
+    font-size : 14px;
+    text-align:justify;
+} 
+
+.biblio_infos_achat{
+    
+} 
+
+.biblio_prix{
+    
+}    
+ 
+.biblio_formats {
+    font-size: 12px; 
+} 
+
+
+/*   booksheet  */
+#booksheet .titres h1, h2 {
+    
+    line-height: 20px;
+}
+
+#booksheet .titres h1 {
+    font-size: 22px;
+    font-family: Georgia;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
+#booksheet .titres h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#booksheet .titres h3 {
+    font-size: 16px;
+}
+
+#booksheet .text {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+}
+
+#booksheet .infos_achat{
+
+}
+
+#booksheet .infos dt {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#booksheet .infos dd {
+    font-size: 12px;
+}
+
+#booksheet .infos {
+}
+
+#booksheet .buy {
+}
+
+#booksheet .prix {
+    font-size: 20px;
+}
+
+#booksheet .formats {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#booksheet .sliderNoResult {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#booksheet .auteur_slider, .editions_slider, .format_slider{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: Georgia;
+}
+
+#booksheet .auteur_slider u, .editions_slider u {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*   cart  */
+
+#panier_display{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#panier_display .cartElement_title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#panier_display .cartElement_author {
+    font-size: 12px;
+    font-weight: normal;
+}  
+
+#panier_display .cartElement_price {
+    font-size: 14px;
+    font-weight: bold;
+} 
+
+#panier_display .cartElement_publisher {
+    font-size: 12px;
+    font-weight: normal;
+}  
+
+#panier_display .cartElement_formats{
+    font-size: 11px;
+    font-style: italic;
+    font-weight:normal;
+}
+
+#panier_display .delete_cartElement {
+    font-size: 20px;
+}  
+
+#panier_display .total_price {
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+#panier_display .endCart{
+    
+}
+
+#emptyCart {
+    
+} 
+
+
+/*
+    hover content
+*/
+.hover_content {
+
+}
+
+.hover_titre_auteur {
+    
+}
+
+.hover_title {
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.hover_auteur {
+    font-size: 13px;
+}
+
+.hover_publisher {
+    font-size: 13px;
+}
+
+.hover_description {
+    font-size: 11px;
+    text-align: justify;
+}
+
+.hover_description_noPivot {
+    font-size: 15px;
+    text-align: left;
+}
+
+.hover_infos_achat{
+
+}
+
+.little_buy_button{
+
+}
+
+.hover_prix{
+    font-size: 18px;
+}
+
+.hover_formats {
+    font-size: 12px;
+}
+
+
+
+/*  shop   */
+
+
+#shop_menu p {
+    font-weight: bold;
+}
+
+.cartElement_title {
+    font-weight: bold;
+}
+
+.cartElement_author {
+    font-size: 14px;
+}  
+
+.cartElement_price {
+    
+} 
+
+.cartElement_publisher {
+    font-size: 14px;
+}  
+
+.delete_cartElement {
+    font-size: 20px;
+}  
+ 
+#total_price {
+    font-size: 20px;
+}
+
+#total_ {
+}    
+
+#_price {
+} 
+
+#agreement{
+    font-size: 12px;
+} 
+
+#end_button {
+}    
+
+
+/*  profile */
+
+.profile_container {
+
+}
+
+.shelfElement_container{
+
+}
+
+.shelfElement_image{
+
+}
+
+.shelfElement_title{
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: central;
+    font-weight: bold;
+}
+
+.shelfElement_author{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: central;
+}
+
+.shelfElement_publisher{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: central;
+}
+
+.shelfElement_price{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    vertical-align: central;
+}
+
+.shelfElement_format{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: central;
+}
+
+.shelfElement_format{
+    font-weight: normal;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.shelfElement_multipleFormats{
+    font-weight: normal;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+.shelfElement_dwnldLink{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* about  */

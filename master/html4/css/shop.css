@@ -1,0 +1,867 @@
+
+#filtres {
+    margin: 0;
+    height: 80px;
+    position: relative;
+    z-index: 400;
+    float: left;
+    
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.empty {
+    
+}
+
+span{
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+}
+
+#shop_menu {
+    height: 70px;
+    position: relative;
+    z-index: 600;
+    float: left;
+    
+    -webkit-box-shadow: 0 6px 20px -10px #444;
+    -moz-box-shadow: 0 6px 10px -10px #444;
+    box-shadow: 0 6px 15px -10px #444;
+}
+
+.step{
+    position: relative;
+    float: left;
+    height: 60px;
+    opacity: 0.5;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.step p {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.last {
+    margin-right: 0;
+}
+
+
+#shop_cartDisplay {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 100px;
+    
+    min-height: 400px;
+}
+
+#selec_step {
+    display: none;
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+
+#payment_step{
+    display: none;
+    opacity: 0;
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+
+#download_step{
+    display: none;
+    
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    
+    border: 2px solid #444;
+}
+
+
+
+
+
+/*IDENTIFICATION*/
+
+#shop #form {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    height: 450px;
+}
+
+
+/* --------- LOGIN -------------- */
+#form #formFromExternalWebsite div {
+    color: #29B039;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align:justify;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    width: 86%;
+}
+
+#form #accountGeneralHeader div {
+    width: 100%;
+    font-size: 20px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+#form #existingAccountHeader {
+    width: 47%;
+    float: left;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #D9D8D0;
+}
+
+#form #createAccountHeader {
+    width: 47%;
+    float: right;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #D9D8D0;
+}
+
+#form #existingAccountHeader div, #createAccountHeader div {
+    width: 100%;
+    height: 50px;
+    line-height: 25px;
+    text-align:center;
+    font-size: 15px;
+}
+
+#form #existingAccountHeader span, #createAccountHeader span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#form #existingAccountHeader span, #createAccountHeader span:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+#form #formNeedLogin {
+    
+}
+
+#formLogin {
+    width: 47%;
+    float: left;
+    margin-left: 10px;
+}
+
+#formCreateAccount {
+    width: 47%;
+    float: right;
+    margin-left: 20px;
+}
+
+.formAccountLabel {
+    display: inline-block;
+    width: 225px;
+}
+
+
+
+
+
+/*#form #infoNeedRegister {
+    width: 100%;
+    font-size: 20px;
+    text-align:center;
+    margin-bottom: 20px;
+}*/
+
+#form #registerZone {
+    width: 100%;
+    font-size: 16px;
+    text-align:center;
+    margin: 20px 0 100px 0;
+}
+
+#form #forgottenPasswordZone {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+#shop #login_form{
+    padding: 10px;
+    height: 140px;
+}
+
+#shop #login_form input{
+    height: 20px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+    font-size: 13px;
+    width: 182px;
+}
+
+#shop #login_form label{
+    font-size: 16px;
+}
+
+#shop #login_form #remember_me{
+    position: relative;
+    float: left;
+    width: 5%;
+    margin-left: 31%;
+    margin-bottom: 0px;
+}
+#shop #login_form #remember_label{
+    font-size: 16px;
+}
+
+#login_form .actionButton {
+    text-align: center;
+    margin-top: 53px;
+    margin-bottom: 20px
+}
+
+#shop #login_form #_submit{
+    cursor: pointer;
+    font-size: 16px;
+    height: 30px;
+}
+
+#shop #forgotPasswordFormLabel, #shop #registerFormLabel{
+    position: relative;
+    float: left;
+    padding: 0 7px 5px 0;
+    clear:both;
+}
+
+#shop #forgotPasswordFormLabel {
+    font-size: 14px;
+}
+
+#shop #registerFormLabel {
+    font-size: 20px;
+}
+
+#shop #forgotPasswordFormLabel:hover, #shop #registerFormLabel:hover{
+    text-decoration:none;
+    cursor: default;
+}
+
+#shop #forgotPasswordForm, #shop #registerForm{
+    position: relative;
+    float: left;
+    padding: 0px 7px 5px 0;
+    font-weight:bold;
+}
+
+#shop #forgotPasswordForm {
+    font-size: 14px;
+}
+
+#shop #registerForm {
+    font-size: 16px;
+}
+
+#sp_global_message_fos_user_registration_form {
+    font-size: 14px;
+    color:#20a712;
+}
+
+#sp_global_error_login_form, #sp_global_error_fos_user_registration_form {
+    font-size: 14px;
+    color: #d83232;
+    margin-left: 10px;
+}
+/* --------- CREATE ACOUNT -------------- */
+
+#shop #fos_user_registration_form{
+    padding: 10px;
+    width: 100%;
+}
+
+#shop #fos_user_registration_form .actionButton {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+#shop #fos_user_registration_form input{
+    height: 20px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+    font-size: 13px;
+    border: 1px solid #333;
+    width: 182px;
+}
+
+#shop #fos_user_registration_form label{
+    font-size: 16px;
+    height: 24px;
+}
+
+#shop #fos_user_registration_form_email{
+    height: 30px;
+}
+
+#shop #fos_user_registration_form_plainPassword label{
+    margin-top: 10px;
+}
+
+#shop #fos_user_registration_form_plainPassword_first{
+
+}
+#shop #fos_user_registration_form_plainPassword_second{
+
+}
+
+#shop #fos_user_registration_form #create{
+    cursor: pointer;
+    font-size: 16px;
+    height: 30px;
+}
+
+#shopAlertIncompleteProfile {
+    padding:10px;
+    border:1px dashed #008000;
+    color:#008000;
+    line-height:21px;
+    font-family:Arial;
+    text-decoration:none;
+    width:440px;
+    margin:10px 10px 10px;
+    margin:auto;
+}
+
+#shop #form #loginForm{
+    margin: -10px 0 108px 280px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+#shop #sanspapier_userdatabundle_usertype{
+    margin: 10px auto auto;
+    padding: 5px;
+    width: 440px;
+    height: 215px;
+    border: 5px solid #D9D8D0;
+    border-radius: 5px;
+}
+
+#shop #sanspapier_userdatabundle_usertype #_submit{
+    height: 40px;
+    margin: 40px 0 10px 120px;
+    opacity: 0.7;
+    cursor: pointer;
+    background: #000;
+    color: #FFF;
+    font-size: 14px;
+}
+
+/* --------- RESET PASSWORD -------------- */
+
+#shop #fos_user_resetting_request{
+    padding: 10px;
+    margin-left: 25px;
+}
+
+#shop #fos_user_resetting_request input{
+    height: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-size: 16px;
+    border: none;
+    width: 30%;
+    border: 1px solid #333;
+}
+
+#shop #fos_user_resetting_request label{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#shop #fos_user_resetting_request #reset_password{
+    cursor: pointer;
+    font-size: 16px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 244px;
+    width: 31%;
+}
+
+#shop #sp_global_error_fos_user_resetting_request{
+    text-align: left;
+    padding: 10px;
+}
+
+#titleResetPassword {
+    width: 100%;
+    font-size: 20px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+#textResetPassword {
+    width: 100%;
+    font-size: 16px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+/*
+    USER INFOS DISPLAY
+*/
+
+#infos_perso #sanspapier_userdatabundle_usertype{
+    position: relative;
+    float: left;
+    
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    
+    width: 440px;
+    
+    border: 5px solid #D9D8D0;
+    border-radius: 5px;
+}
+
+#sanspapier_userdatabundle_usertype span{
+    text-decoration: none;
+    cursor: default;
+}
+
+#sanspapier_userdatabundle_usertype input{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 20px;
+    margin-right: 40px;
+    margin-bottom: 2px;
+    
+    font-size: 14px;
+}
+#sanspapier_userdatabundle_usertype select{
+    position: relative;
+    float: left;
+    width: 190px;
+    
+    margin-bottom: 20px;
+    margin-top:5px;
+}
+
+#sanspapier_userdatabundle_usertype label{
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 24px;
+    
+    padding-top: 2px;
+    padding-right: 5px;
+    
+    text-align: left;
+    vertical-align: central;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#sanspapier_userdatabundle_usertype h3{
+    position: relative;
+    float: left;
+    
+    width: 440px;
+    height: 20px;
+    
+    margin-top: 10px;
+}
+
+.fos_user_change_password{
+    margin: 10px;
+}
+
+#sanspapier_userdatabundle_usertype_preference_gender{
+    position: relative;
+    float: left;
+    
+    width: 300px;
+    
+    text-align: left;
+}
+
+#sanspapier_userdatabundle_usertype_preference_gender input{
+    position: relative;
+    float: left;
+    
+    margin-right: 0px;
+    width: 15px;
+}
+#sanspapier_userdatabundle_usertype_preference_gender label{
+    position: relative;
+    float: left;
+    
+    width: 20px;
+    margin-right: 20px;
+    padding-left: 5px;
+}
+
+#sanspapier_userdatabundle_usertype #_notifiable{
+    width: 350px;
+    
+    margin-top: 10px;
+}
+#sanspapier_userdatabundle_usertype #sanspapier_userdatabundle_usertype_preference_notifiable{
+    position: relative;
+    float: left;
+    
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+#sanspapier_userdatabundle_usertype_preference_billing_address_country_code{
+    width:100px;
+}
+
+#sanspapier_userdatabundle_usertype_preference_billing_address_address{
+    width: 200px;
+}
+
+#sanspapier_userdatabundle_usertype_email{
+    width: 200px;
+}
+
+#infos_perso #sanspapier_userdatabundle_usertype #_submit{
+    position: relative;
+    float: left;
+    height: 40px;
+    margin: 20px 0 10px 163px;
+    opacity: 0.7;
+    cursor: pointer;
+    background: #FFF;
+    color: #000;
+    font-size: 14px;
+}
+
+#sanspapier_userdatabundle_usertype #_submit:hover{
+    opacity: 1;
+}
+
+
+#sanspapier_userdatabundle_usertype_confirmed{
+    position: relative;
+    float: left;
+    
+    font-weight: bold;
+    width: 400px;
+}
+
+
+
+/* ----------- STEPS --------------- */
+
+#total_price {
+    position: relative;
+    float: left;
+    min-height: 50px;
+    margin-top: 10px;
+    display: none;
+}
+
+#total_ {
+    position: relative;
+    float: left;
+    font-weight: normal;
+}
+
+#_price {
+    position: relative;
+    float: right;
+    text-align: right;
+    font-weight: normal;
+}
+
+#agreement{
+    margin: 10px 0 10px 10px;
+    position: relative;
+    float: left;
+    width:100%;
+}
+
+#agreement_checkbox{
+    position: relative;
+    float: left;
+    width:20px; 
+    height:20px;
+}
+
+#end_button {
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px 0 40px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+#end_button:hover{
+    opacity: 1;
+}
+
+.linkShopCGV {
+    font-size: 12px;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+
+/*
+
+    CART CONTAINERS
+*/
+
+.cart_container {
+    width: 456px;
+    margin-top: -10px;
+}
+
+.cartElement_container {
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CACACA;
+    padding-bottom: 5px;
+}
+
+.cartElement_image {
+    position: relative;
+    float: left;
+    margin-left:10px;
+}
+
+.cartElement_title {
+    width: 60%;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+.cartElement_author {
+    width: 60%;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+.cartElement_price {
+    position: relative;
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.cartElement_publisher {
+    width: 60%;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+.cartElement_format {
+    font-size: 12px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 70%;
+    font-style: italic;
+}
+
+.delete_cartElement {
+    width:30px;
+    position: relative;
+    float: right;
+    font-size: 20px;
+    opacity: 0.7;
+    margin-right: 10px;
+}
+.delete_cartElement:hover{
+    opacity: 1;
+}
+
+
+/* SHEEEEEEEEELFF */
+
+.shelfElement_container{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: solid 1px #CACACA;
+}
+
+.shelfElement_image{
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 60px;
+}
+
+.shelfElement_title{
+    position: relative;
+    float: left;
+    width: 400px;
+    margin-left: 5px;
+    
+}
+
+.shelfElement_author{
+    position: relative;
+    float: left;
+    width: 400px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.shelfElement_publisher{
+    position: relative;
+    float: left;
+    width: 400px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.shelfElement_dwnldLink{
+    position: relative;
+    float: left;
+    min-width: 40px;
+    height: 14px;
+    
+    margin-right: 10px;
+    padding: 5px;
+    
+    text-align: center;
+    line-height: 14px;
+    vertical-align: central;
+    
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    
+    color: #444;
+    
+    font-weight: bold;
+}
+.shelfElement_dwnldLink:hover{
+    background: #444;
+    color: #FFF;
+    
+}
+
+.shelfElement_price{
+    position: relative;
+    float: right;
+}
+
+.shelfElement_format{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.shelfElement_multipleFormats{
+    position: relative;
+    float: left;
+    width: 350px;
+    margin-left: 5px;
+    height: 40px;
+}
+
+.shelfElement_total_price{
+    position: relative;
+    float: left;
+    
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+    
+    border-top: 1px solid #CACACA;
+    
+    text-align: right;
+    font-size: 20px;
+}
+
+.dilicom_order_number{
+    position: relative;
+    font-size:16px; 
+    font-weight: bold;
+}
+
+.generatePDF{
+    position: relative;
+    float: left;
+    width: 100%;
+    
+    margin-top: 10%;
+    
+    text-align: center;
+}
+.generatePDF:hover{
+    text-decoration: underline;
+}
+
+.errorInShopElt {
+    width: 100%;
+    text-align:center;
+    font-weight:bold;
+    font-size:10px;
+    color: red;
+    margin-bottom:4px;
+    clear:both;
+}
+
+.windows{
+    position: fixed;
+    border-width: 0.2em;
+    border-color: #444;
+    background: #FFF;
+    color: #444;
+    z-index: 1000;
+    font-size: 14px;
+    line-height: 15px;
+    max-width: 200px;
+    padding: 5px;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}

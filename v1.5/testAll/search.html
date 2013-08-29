@@ -1,0 +1,559 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="content-type" 
+              content="text/html;charset=utf-8" />
+
+        <title>Sans Papier</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/grid_system.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/fiche_livre.css" type="text/css" media="screen"/>
+
+        <script type="text/javascript" src="js/ajax.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/raphael.js"></script>
+        <script type="text/javascript" src="js/spSlider.js"></script>  
+        <script type="text/javascript" src="js/qTip.js"></script>
+        <script type="text/javascript" src="js/cible.js"></script> 
+        <script type="text/javascript" src="js/categories.js"></script>
+        <script type="text/javascript" src="js/scroll_fixed.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
+
+    </head>
+
+    <body>
+        <!--Header-->
+        <div class="full_width" id="header">
+
+            <div class="container_5">
+                <div class="grid_1" style="height: 100px;">
+                    <img src="images/logo.png" BORDER=0/>  
+                </div>
+                <div class="grid_3" id="search_bar_top">
+                    search
+                </div>
+                <!--<div class="grid_3" style="height: 100px;"></div>-->
+                <div class="grid_1" style="height: 100px;">
+                    <div class="button_header mon_compte">Mon Compte</div>
+                    <div class="button_header">A propos</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container_5" style="position: relative; height: 100px;">
+        </div>
+
+        <div class="full_width" id="filtres">
+            <div class="container_5">
+                <div class="grid_1" style="height: 40px;"></div>
+                <div class="grid_1 button">prix<br/>v</div>
+                <div class="grid_1 button">formats<br/>v</div>
+                <div class="grid_1 button">drm<br/>v</div>
+                <div class="grid_1 button">panier<br/>v</div>
+            </div>
+        </div>
+
+        <div class="container_5" style="position: relative; height: 50px;">
+        </div>
+
+        <div class="clear"></div>
+
+        <!--Cible area-->
+        <div class="container_5">
+            <div id="cible">
+                <div id="search_bar">
+                    <div id="holder"></div>
+                    <div id="booksheet"> 
+
+                        <div class="content"> 
+
+                            <div id="container_fiche">
+
+                                <div id="image">
+                                    <img src="">FRONT COVER</img>
+                                </div>
+
+                                <div id="titre_logo">
+                                    <div id="titres">
+                                        <h1>L’enfant d’entre-les-deux</h1>
+                                        <h2>Jacques Gnorra</h2>
+                                        <h3>Éditions Zinedi, roman</h3>
+                                    </div>
+
+                                    <div id="publisher_logo" style="border: 1px solid #555;">
+                                        <img src="">PUBLISHER LOGO</img>
+                                    </div>
+                                </div>
+
+                                <div id="text">
+                                    <p>Sacha est un enfant turbulent, un « hyperactif », selon la formule consacrée. La faute à un Q.I. supérieur ! Il n’en fallait pas plus pour que ses parents, qui ne lui vouaient pas un amour débordant, l’éloignent du foyer pour confier son éducation à d’autres. Le père de Sacha est un homme à l’esprit étroit et au cœur sec, sa mère est soumise à la tyrannie de son époux et trompe son ennui dans les séries télés et la confection de napper- ons. Face aux turpitudes de leur enfant, ces parvenus bien-pensants ne savent que manier la trique là où il eût suffi d’amour. Mais la trique, plus morale que physique, se brise sur l’échine de cet enfant qui ne se soumet pas. Commence alors l’engrenage infernal des place- ments successifs de plus en plus « musclés », ponctués de fugues et de brefs retours navrants au sein du foyer. Tous les efforts de Sacha se perdent dans le puits sans fond de l’indignité de ses parents qui vont jusqu’à l’abandonner après une fracture de la mâchoire pour partir tranquillement en vacances, comme on laisse un chien au bord de la route. Ce récit nous livre, à l’état brut, sans pathos, les étapes qui vont conduire Sacha de l’exclusion familiale à l’exclusion scolaire puis sociale. Les mots sont là, juste pour le dire. Seule note d’espoir, l’amour, et les valeurs qui s’y rattachent, a tissé un fil entre lui et les êtres qui ont croisé sa route et l’ont aimé, un fil qui l’a empêché de sombrer définitivement et qui maintient au fond de son cœur une lueur d’espérance.</p>
+                                </div>
+
+
+                                <div id="infos_achat">
+                                    <div id="infos">
+                                        Taille du fichier: 175 KB <br/>
+                                        Taille de l’édition imprimée: 55 pages<br/>
+                                        Date de parution: 11/2006 <br/>
+                                        ISBN: 9782848590622 <br/>
+                                        EAN: 978-2848590622<br/>
+                                    </div>
+
+                                    <div id="buy">
+                                        <div id="prix">8,00€<br/><div id="formats">epub + pdf + mobi</div></div>
+                                        <div id="buy_button">
+                                            <a href=""><img src=""></img>ACHAT</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- SLIDERS -->
+
+                                <div id="sliders">
+                                    <div id="editions_sliders">
+                                        Dans d'autres éditions
+                                        <div class="slider_clip">
+                                            <div class="slider_cont">
+                                                <ul>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/1_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/2_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/3_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/4_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/5_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/6_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/7_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/8_fc_F.png" alt="[Alternative text]" /></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <span class="prev"><</span>
+                                        <span class="next">></span>
+                                    </div>
+
+                                    <div id="auteur_sliders">
+                                        Du même auteur
+                                        <div class="slider_clip">
+                                            <div class="slider_cont">
+                                                <ul>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/1_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/2_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/3_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/4_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/5_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/6_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/7_fc_F.png" alt="[Alternative text]" /></li>
+                                                    <li><img src="/front_sanspapier/cible_dev/images/8_fc_F.png" alt="[Alternative text]" /></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <span class="prev"><</span>
+                                        <span class="next">></span>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>    
+                    </div>
+                    <div id="content" class="hover_content"> 
+                        
+                        <div class="hover_titre_auteur">
+                            <div class="hover_title">
+                                L'enfant d'entre les deux
+                            </div>
+
+                            <div class="hover_auteur">
+                                Jacques Gnorra
+                            </div>
+                        </div>
+
+                        <div class="hover_description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+                            <a href="#" class="link">plus d'info</a>
+                        </div>
+
+                        <div class="hover_infos_achat">
+                            <div class="hover_prix">
+                                8,00€
+                            </div><br/>
+                            <div class="hover_formats">
+                                epub + pdf + mobi
+                            </div>
+                            
+                        </div>
+                        <div class="little_buy_button">
+                                achat
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_5" id="space" style="position: relative;">
+        </div>
+
+        <!-- Mosaique -->
+        <div id="scroll_fixed" class="full_width">
+            <div class="container_5">
+                <div class="grid_12" style="height: 5px;"></div>
+                <a class="grid_1 onglet propo" href="javascript:void(0)">A la une</a>
+                <a class="grid_1 onglet mon_compte" href="javascript:void(0)">Mes sélections</a>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="change_col" style="height: 50px;">
+
+                <div class="container_5" style="overflow: hidden;">
+
+                    <ul id="categories" style="width: 1600px;">
+
+                        <li class="grid_1 column1 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+
+                        <li class="grid_1 column2 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+
+                        <li class="grid_1 column3 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+
+                        <li class="grid_1 column4 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+
+                        <li class="grid_1 column5 ui-corner-all">
+                            <span class="activateSpread"></span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="full_width">
+        <div class="container_5" style="overflow: hidden;">
+            <div id="columns">
+
+                <div class="grid_1 column1">
+                    <div class="fiche_mosaique col_1">
+                        <div class="imageMo">
+                            <img src="images/1_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fiche_mosaique col_1">
+                        <div class="imageMo">
+                            <img src="images/2_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid_1 column2">
+                    <div class="fiche_mosaique col_2">
+                        <div class="imageMo">
+                            <img src="images/3_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fiche_mosaique col_2">
+                        <div class="imageMo">
+                            <img src="images/4_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid_1 column3">
+                    <div class="fiche_mosaique col_3">
+                        <div class="imageMo">
+                            <img src="images/5_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fiche_mosaique col_3">
+                        <div class="imageMo">
+                            <img src="images/6_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid_1 column4">
+                    <div class="fiche_mosaique col_4">
+                        <div class="imageMo">
+                            <img src="images/7_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fiche_mosaique col_4">
+                        <div class="imageMo">
+                            <img src="images/8_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid_1 column5">
+                    <div class="fiche_mosaique col_5">
+                        <div class="imageMo">
+                            <img src="images/1_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fiche_mosaique col_5">
+                        <div class="imageMo">
+                            <img src="images/2_fc_B.png"></img>
+                        </div>
+                        <div class="titre_auteur">
+                            <div class="titreMo">
+                                L'enfant d'entre les deux
+                            </div>
+                            <div class="auteurMo">
+                                Jacques Gnorra<br/>Editions Zinedi, Roman
+                            </div>
+                        </div>
+                        <div class="textMo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </div>
+                        <a href="#" class="link">plus d'info</a>
+                        <div class="infos_achatMo">
+                            <div class="prixMo">
+                                8,00€
+                            </div><br/>
+                            <div class="formatsMo">
+                                epub + pdf + mobi
+                            </div>
+                            <div class="buy_buttonMo">
+                                achat
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+    </body>
+
+
+</html>

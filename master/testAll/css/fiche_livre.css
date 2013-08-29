@@ -1,0 +1,225 @@
+/* ============================== */
+/* ! Layout for fiche livre       */
+/* ============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    color: black;
+}
+
+ul {
+
+}
+
+li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    width: 100px;
+    height: auto;
+    opacity: 0.75;
+}
+
+li:hover {
+    opacity: 1;
+    cursor: pointer;
+    -moz-transition: opacity 0.3s; /* Firefox 4 */
+    -webkit-transition: opacity 0.3s; /* Safari and Chrome */
+    -o-transition: opacity 0.3s; /* Opera */
+    transition: opacity 0.3s;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+#container_fiche {
+    background-color: #fff;
+    width: 900px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image {
+    float: left;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 250px;
+    height: 379px;
+    background-color: transparent;
+    border: 1px solid #555;
+}
+
+#titre_logo {
+    float: left;
+    position: relative;
+    background-color: transparent;
+    margin-left: 10px;
+    width: 620px;
+    height: 100px;
+    margin-top: 30px;
+    z-index: 2;
+}
+
+#titres {
+    float: left;
+    position: relative;
+    width: 410px;
+}
+
+#publisher_logo {
+    position: relative;
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+#text {
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 620px;
+    height: 269px;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+#infos_achat{
+    float: left;
+    position: relative;
+    width: 882px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+#infos {
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 100px;
+}
+
+#buy {
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 100px;
+}
+
+#prix {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#formats {
+    font-size: 12px;
+}
+
+#buy_button{
+    position: relative;
+    float: right;
+    margin-top: 25px;
+    border: 1px solid #555;
+    width: 200px;
+    height: 50px;
+}
+
+#sliders{
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 882px;
+    height: 180px;
+}
+
+#editions_sliders{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 180px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#auteur_sliders{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 180px;
+    text-align: center;
+}
+
+.slider_cont {
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 1000px;
+    height: 126px;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+}
+
+.slider_clip {
+    margin: 0;
+    margin-left: 50px;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 126px;
+}
+
+.next {
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 35px;
+    margin-top: -60px;
+}
+.next:hover{
+}
+
+.prev {
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    margin-left: 35px;
+    margin-top: -60px;
+}
+.prev:hover{
+}
+
+.ui {
+    position: fixed
+}
+
+
+
